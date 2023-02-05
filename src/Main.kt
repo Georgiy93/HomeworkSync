@@ -3,8 +3,8 @@ package ru.netology.deadlock
 import kotlin.concurrent.thread
 
 fun main() {
-    val resourceA = "300s"
-    val resourceB = "300"
+    val resourceA = Any()
+    val resourceB = Any()
 
     val consumerA = Consumer("A")
     val consumerB = Consumer("B")
